@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source_files =        'Framework/ym.framework/Versions/A/Headers/*.h'
   s.public_header_files = 'Framework/ym.framework/Versions/A/Headers/*.h'
   s.preserve_paths =      'Framework/ym.framework/Versions/A/ym'
-  s.frameworks =          'Framework/ym.framework'
+  s.frameworks =          'Framework/ym'
 
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo-iOS-SDK/Framework/' } 
 
