@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<title>Sample In-App Content file</title>
+
+</head>
+<body>
+  <h2>SDK Enhanced UIWebView</h2>
+<article>
+  
+  <!-- Replace <YOUR_PLACEMENT ID> with the placement ID provided by your YieldMo representative
+   a placement ID has the form: "ym_12345678" 
+   by -->
+  <div id="ym_<YOUR_PLACEMENT_ID>" class="ym">
+  <b>Ad content is incorporated into article content with in-content YieldMo ad stubs.
+  Replace the ID attribute here with the one provided by your YieldMo representative to see your ad.</b>
+  </div>
+  <script type="text/javascript">(function(e,t){if(t.ym===void 0){t.ym="";var m=e.createElement("script");m.type="text/javascript",m.async=!0,m.src="http://static.yieldmo.com/ym.min.js",(e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m)}else t.ym instanceof String||void 0===t.ym.chkPls||t.ym.chkPls()})(document,window);</script>
+  
+  <span style="color:#333">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+  
+  <!-- YieldMo Tag-->
+  <!-- ID should look like ym_123456789, provided by your YieldMo representative--> 
+  <div id="ym_<YOUR_PLACEMENT_ID_HERE>" class="ym">
+    <b>Ad content is incorporated into article content with in-content YieldMo ad stubs.
+      Replace the ID attribute here with the one provided by your YieldMo representative to see your ad.</b>
+  </div>
+  <script type="text/javascript">(function(e,t){if(t.ym===void 0){t.ym="";var m=e.createElement("script");m.type="text/javascript",m.async=!0,m.src="http://static.yieldmo.com/ym.min.js",(e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m)}else t.ym instanceof String||void 0===t.ym.chkPls||t.ym.chkPls()})(document,window);</script>
+  
+  <span style="color:#333">
+  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+  </span>
+</article>
+<script>
+
+  (function(){
+   var div = document.createElement('div');
+   div.style='background-color:green;font-size:75px;';
+   var hdr = document.cookie.indexOf('YIELDMO') < 0 ? 'FAILURE' : 'SUCCESS';
+   div.innerHTML='<br /><br /><br /><br /><br /><h1>' + hdr
+   + '</h1><br /><br /><br />' +
+   document.cookie
+   +'<br /><br /><br />';
+   })();
+  </script>
+</body>
+</html>
