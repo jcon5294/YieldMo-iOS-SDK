@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "YieldMo-iOS-SDK"
+  s.name         = "YieldMo"
   s.version      = "0.0.1"
   s.summary      = "A repo for the (private source) YieldMo iOS SDK framework, to allow integration using CocoaPods."
 
