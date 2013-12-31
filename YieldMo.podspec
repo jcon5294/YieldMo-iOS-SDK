@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/jcon5294/YieldMo-iOS-SDK.git", :tag => "0.0.1" }
 
-  s.source_files =        'Framework/ym.framework/Versions/A/Headers/*.h'
-  s.public_header_files = 'Framework/ym.framework/Versions/A/Headers/*.h'
-  s.preserve_paths =      'Framework/ym.framework/Versions/A/ym'
-  s.frameworks =          'Framework/ym'
+  s.source_files =        'Framework/YieldMo.framework/Versions/A/Headers/*.h'
+  s.public_header_files = 'Framework/YieldMo.framework/Versions/A/Headers/*.h'
+  s.preserve_paths =      'Framework/YieldMo.framework/Versions/A/ym'
+  s.frameworks =          'Framework/YieldMo'
 
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo-iOS-SDK/Framework/' } 
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo/Framework/' }
 
 end

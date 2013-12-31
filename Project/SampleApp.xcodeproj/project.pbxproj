@@ -24,7 +24,8 @@
 		0C0AE27E18441D6C0070C00A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0C0AE27D18441D6C0070C00A /* index.html */; };
 		0C0AE28018441DAB0070C00A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0AE27F18441DAB0070C00A /* StoreKit.framework */; };
 		0C0AE28218441DB10070C00A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0AE28118441DB10070C00A /* AdSupport.framework */; };
-		5FEE372A18724F1600C3B0E1 /* ym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEE372918724F1600C3B0E1 /* ym.framework */; };
+		5FEE372A18724F1600C3B0E1 /* YieldMo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEE372918724F1600C3B0E1 /* YieldMo.framework */; };
+		5FEE372C1872719F00C3B0E1 /* YieldMo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5FEE372B1872719F00C3B0E1 /* YieldMo.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +61,8 @@
 		0C0AE27D18441D6C0070C00A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		0C0AE27F18441DAB0070C00A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0C0AE28118441DB10070C00A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		5FEE372918724F1600C3B0E1 /* ym.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ym.framework; path = ../Framework/ym.framework; sourceTree = "<group>"; };
+		5FEE372918724F1600C3B0E1 /* YieldMo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YieldMo.framework; path = ../Framework/YieldMo.framework; sourceTree = "<group>"; };
+		5FEE372B1872719F00C3B0E1 /* YieldMo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YieldMo.podspec; path = ../YieldMo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0AE28218441DB10070C00A /* AdSupport.framework in Frameworks */,
-				5FEE372A18724F1600C3B0E1 /* ym.framework in Frameworks */,
+				5FEE372A18724F1600C3B0E1 /* YieldMo.framework in Frameworks */,
 				0C0AE28018441DAB0070C00A /* StoreKit.framework in Frameworks */,
 				0C0AE24518441C5E0070C00A /* CoreGraphics.framework in Frameworks */,
 				0C0AE24718441C5E0070C00A /* UIKit.framework in Frameworks */,
@@ -93,6 +95,7 @@
 		0C0AE23618441C5D0070C00A = {
 			isa = PBXGroup;
 			children = (
+				5FEE372B1872719F00C3B0E1 /* YieldMo.podspec */,
 				0C0AE24818441C5E0070C00A /* SampleApp */,
 				0C0AE24118441C5D0070C00A /* Frameworks */,
 				0C0AE24018441C5D0070C00A /* Products */,
@@ -111,7 +114,7 @@
 		0C0AE24118441C5D0070C00A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FEE372918724F1600C3B0E1 /* ym.framework */,
+				5FEE372918724F1600C3B0E1 /* YieldMo.framework */,
 				0C0AE28118441DB10070C00A /* AdSupport.framework */,
 				0C0AE27F18441DAB0070C00A /* StoreKit.framework */,
 				0C0AE24218441C5E0070C00A /* Foundation.framework */,
@@ -230,6 +233,7 @@
 				0C0AE25918441C5E0070C00A /* Main_iPad.storyboard in Resources */,
 				0C0AE26118441C5E0070C00A /* Images.xcassets in Resources */,
 				0C0AE25618441C5E0070C00A /* Main_iPhone.storyboard in Resources */,
+				5FEE372C1872719F00C3B0E1 /* YieldMo.podspec in Resources */,
 				0C0AE24D18441C5E0070C00A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
