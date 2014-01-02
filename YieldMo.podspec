@@ -6,20 +6,17 @@ Pod::Spec.new do |s|
 
   s.license      = 'NONE'
 
-  s.description  = <<-DESC
-                   A repo for the (private source) YieldMo iOS SDK framework, to allow integration using CocoaPods.
-                   DESC
-
   s.homepage     = "https://github.com/jcon5294/YieldMo-iOS-SDK"
   s.author       = { "Joseph Constan" => "jcon5294@gmail.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/jcon5294/YieldMo-iOS-SDK.git", :tag => "0.0.1" }
 
-  s.source_files =        'Framework/YieldMo.framework/Versions/A/Headers/*.h'
-  s.public_header_files = 'Framework/YieldMo.framework/Versions/A/Headers/*.h'
-  s.preserve_paths =      'Framework/YieldMo.framework/Versions/A/ym'
-  s.frameworks =          'Framework/YieldMo'
+  s.source_files =        'YieldMo.framework/**/*.h'
+  s.public_header_files = 'YieldMo.framework/**/*.h'
+  s.preserve_paths =      'YieldMo.framework/'
+  s.vendored_frameworks = 'YieldMo'
+  s.framework =           'YieldMo'
 
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo/Framework/' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo' }
 
 end

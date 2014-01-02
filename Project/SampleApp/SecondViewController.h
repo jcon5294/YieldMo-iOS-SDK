@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ym/YM.h>
+#import <YieldMo/YM.h>
 
 @interface SecondViewController : UIViewController <YMPlacementListener, UITableViewDataSource,UITableViewDelegate>
 

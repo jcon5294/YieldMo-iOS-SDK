@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <ym/YM.h>
+#import <YieldMo/YM.h>
 
 @implementation AppDelegate
 

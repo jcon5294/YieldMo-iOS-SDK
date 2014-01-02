@@ -24,7 +24,7 @@
 		0C0AE27E18441D6C0070C00A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0C0AE27D18441D6C0070C00A /* index.html */; };
 		0C0AE28018441DAB0070C00A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0AE27F18441DAB0070C00A /* StoreKit.framework */; };
 		0C0AE28218441DB10070C00A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0AE28118441DB10070C00A /* AdSupport.framework */; };
-		5FEE372A18724F1600C3B0E1 /* YieldMo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEE372918724F1600C3B0E1 /* YieldMo.framework */; };
+		5FAE219D18752D52009FC6E5 /* YieldMo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAE219C18752D52009FC6E5 /* YieldMo.framework */; };
 		5FEE372C1872719F00C3B0E1 /* YieldMo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5FEE372B1872719F00C3B0E1 /* YieldMo.podspec */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +61,7 @@
 		0C0AE27D18441D6C0070C00A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		0C0AE27F18441DAB0070C00A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0C0AE28118441DB10070C00A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		5FEE372918724F1600C3B0E1 /* YieldMo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YieldMo.framework; path = ../Framework/YieldMo.framework; sourceTree = "<group>"; };
+		5FAE219C18752D52009FC6E5 /* YieldMo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YieldMo.framework; path = ../YieldMo.framework; sourceTree = "<group>"; };
 		5FEE372B1872719F00C3B0E1 /* YieldMo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YieldMo.podspec; path = ../YieldMo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +71,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0AE28218441DB10070C00A /* AdSupport.framework in Frameworks */,
-				5FEE372A18724F1600C3B0E1 /* YieldMo.framework in Frameworks */,
 				0C0AE28018441DAB0070C00A /* StoreKit.framework in Frameworks */,
+				5FAE219D18752D52009FC6E5 /* YieldMo.framework in Frameworks */,
 				0C0AE24518441C5E0070C00A /* CoreGraphics.framework in Frameworks */,
 				0C0AE24718441C5E0070C00A /* UIKit.framework in Frameworks */,
 				0C0AE24318441C5E0070C00A /* Foundation.framework in Frameworks */,
@@ -114,7 +114,7 @@
 		0C0AE24118441C5D0070C00A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FEE372918724F1600C3B0E1 /* YieldMo.framework */,
+				5FAE219C18752D52009FC6E5 /* YieldMo.framework */,
 				0C0AE28118441DB10070C00A /* AdSupport.framework */,
 				0C0AE27F18441DAB0070C00A /* StoreKit.framework */,
 				0C0AE24218441C5E0070C00A /* Foundation.framework */,
@@ -393,6 +393,7 @@
 					"$(inherited)",
 					/Users/tarik/purgatory/SampleApp/SampleApp,
 					"/Users/josephconstan/Code/YieldMo-iOS-SDK/Framework",
+					"/Users/josephconstan/Code/YieldMo-iOS-SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
@@ -413,6 +414,7 @@
 					"$(inherited)",
 					/Users/tarik/purgatory/SampleApp/SampleApp,
 					"/Users/josephconstan/Code/YieldMo-iOS-SDK/Framework",
+					"/Users/josephconstan/Code/YieldMo-iOS-SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
