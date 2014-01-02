@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
 
   s.source_files =        'YieldMo.framework/**/*.h'
   s.public_header_files = 'YieldMo.framework/**/*.h'
-  s.preserve_paths =      'YieldMo.framework/'
-  s.vendored_frameworks = 'YieldMo'
+  s.preserve_paths =      'YieldMo.framework'
+  s.vendored_frameworks = 'YieldMo.framework'
   s.framework =           'YieldMo'
 
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo' }
