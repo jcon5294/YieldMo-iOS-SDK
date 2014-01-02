@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'YieldMo.framework/**/*.h'
   s.preserve_paths =      'YieldMo.framework'
   s.vendored_frameworks = 'YieldMo.framework'
-  s.framework =           'YieldMo'
+  s.frameworks =          'YieldMo', 'AdSupport', 'StoreKit'
 
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/YieldMo' }
 
